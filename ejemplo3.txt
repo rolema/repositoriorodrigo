@@ -1,4 +1,10 @@
 Ya tienes un repositorio Git y un checkout o copia de trabajo de los archivos de dicho proyecto. 
 El siguiente paso es realizar algunos cambios y confirmar instantáneas de esos cambios en el repositorio cada vez que el proyecto alcance un estado que quieras conservar.
 
-Puedes ver que está siendo rastreado porque aparece luego del encabezado “Cambios a ser confirmados” (“Changes to be committed” en inglés). Si confirmas en este punto, se guardará en el historial la versión del archivo correspondiente al instante en que ejecutaste git add. Anteriormente cuando ejecutaste git init, ejecutaste luego git add (files) - lo cual inició el rastreo de archivos en tu directorio. El comando git add puede recibir tanto una ruta de archivo como de un directorio; si es de un directorio, el comando añade recursivamente los archivos que están dentro de él.
+Puedes ver que está siendo rastreado porque aparece luego del encabezado “Cambios a ser confirmados” (“Changes to be committed” en inglés). Si confirmas en este punto, 
+se guardará en el historial la versión del archivo correspondiente al instante en que ejecutaste git add. Anteriormente cuando ejecutaste git init, ejecutaste luego git add (files) - 
+lo cual inició el rastreo de archivos en tu directorio. El comando git add puede recibir tanto una ruta de archivo como de un directorio; si es de un directorio, 
+el comando añade recursivamente los archivos que están dentro de él.
+
+Ambos archivos están preparados y formarán parte de tu próxima confirmación. En este momento, supongamos que recuerdas que debes hacer un pequeño cambio en CONTRIBUTING.md antes de confirmarlo. 
+Abres de nuevo el archivo, lo cambias y ahora estás listos para confirmar. Sin embargo, ejecutemos git status una vez más:
