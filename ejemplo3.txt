@@ -1,0 +1,2 @@
+Ya tienes un repositorio Git y un checkout o copia de trabajo de los archivos de dicho proyecto. 
+El siguiente paso es realizar algunos cambios y confirmar instantáneas de esos cambios en el repositorio cada vez que el proyecto alcance un estado que quieras conservar.
