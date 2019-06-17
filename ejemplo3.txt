@@ -8,3 +8,9 @@ el comando añade recursivamente los archivos que están dentro de él.
 
 Ambos archivos están preparados y formarán parte de tu próxima confirmación. En este momento, supongamos que recuerdas que debes hacer un pequeño cambio en CONTRIBUTING.md antes de confirmarlo. 
 Abres de nuevo el archivo, lo cambias y ahora estás listos para confirmar. Sin embargo, ejecutemos git status una vez más:
+
+
+¡¿Pero qué…​?! Ahora CONTRIBUTING.md aparece como preparado y como no preparado. 
+¿Cómo es posible? Resulta que Git prepara un archivo de acuerdo al estado que tenía cuando ejecutas el comando git add. Si confirmas ahora, se confirmará la versión de CONTRIBUTING.md 
+que tenías la última vez que ejecutaste git add y no la versión que ves ahora en tu directorio de trabajo al ejecutar git commit. Si modificas un archivo luego de ejecutar git add, 
+deberás ejecutar git add de nuevo para preparar la última versión del archivo:
