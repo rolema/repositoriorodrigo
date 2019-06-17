@@ -5,3 +5,5 @@ Si deseas obtener una copia de un repositorio Git existente — por ejemplo, un 
   Cada versión de cada archivo de la historia del proyecto es descargada por defecto cuando ejecutas git clone. 
   De hecho, si el disco de tu servidor se corrompe, puedes usar cualquiera de los clones en cualquiera de los clientes para devolver al servidor al estado en el que estaba cuando fue clonado 
   (puede que pierdas algunos hooks del lado del servidor y demás, pero toda la información acerca de las versiones estará ahí) — véase Configurando Git en un servidor para más detalles.
+
+  Ahora si vuelves a ver el estado del proyecto, verás que el archivo README está siendo rastreado y está preparado para ser confirmado:
